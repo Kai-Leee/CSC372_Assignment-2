@@ -1,0 +1,134 @@
+/*
+  Name: Kai Lee
+  Date: 02.13.2026
+  CSC 372
+
+  This stylesheet formats the layout blog page, including the intro/sidebar boxes,
+  restaurant cards, dish cards, contact sections, and image credits.
+*/
+
+#intro {
+    border: 3px solid goldenrod;
+    border-left: 6px solid goldenrod;
+    border-radius: 18px;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+#intro h2 {
+    font-size: 1.4rem;
+}
+
+#intro p {
+    margin: 0 0 12px;
+    line-height: 1.65;
+    font-size: 1.10rem;
+}
+
+#sidebar {
+    border: 1px solid burlywood ;
+    border-left: 6px solid burlywood;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+#sidebar h2 {
+    font-size: 1.26rem;
+}
+
+#sidebar p {
+    margin: 0 0 10px;
+    line-height: 1.65;
+}
+
+.restaurant {
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 18px;
+    background: lavender;
+    margin: 18px 0;
+}
+
+.restaurant-title {
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-family: Georgia , serif;
+    font-size: 1.35rem;
+}
+
+.restaurant-info {
+    margin: 0 0 12px;
+    padding-left: 12px;
+    border-left: 3px solid cornflowerblue;
+    color: cornflowerblue;
+    font-size: 1.05rem;
+    line-height: 1.55;
+}
+.restaurant-desc {
+    margin: 0 0 10px ;
+    color: darksalmon;
+    padding-left: 12px;
+    font-size: 1rem;
+}
+
+.restaurant-main {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px 0 ;
+}
+
+.restaurant-dish {
+    display:flex;
+    gap: 14px;
+    margin-top: 14px;
+    flex-wrap: nowrap;
+}
+
+ .dish-card {
+     flex: 1 1 auto;
+     border: 1px solid black;
+     border-radius: 10px;
+     padding: 12px;
+ }
+
+.dish-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 250px;
+    border-radius: 20px;
+    background-color: lavenderblush;
+}
+
+.dish-card p{
+    margin: 1px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.contact {
+    margin-top: 18px;
+    padding: 18px;
+    border: 2px solid darkgray;
+    border-radius: 16px;
+}
+
+.contact h4{
+    font-size: 1.2rem;
+}
+
+.contact p {
+    line-height: 1.6;
+}
+
+#credits {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid darkgray;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    background-color: burlywood;
+    color: #475569;
+}

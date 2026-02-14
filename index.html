@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!--
+  Name: Kai Lee
+  Date: 02.13.2026
+  CSC 372
+
+  This page is a layout blog that recommends restaurants near UNCG’s Petty Building.
+  It includes three restaurant showcases with dish cards, a sidebar, and image credits.
+-->
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Asgn2-Menu</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+	<h1>Restaurants On Campus</h1>
+	<p>Food and drink near Petty Building.</p>
+</header>
+
+<main>
+	<section id="intro">
+		<h2>Introduction</h2>
+		<p>
+			This blog introduces my recommended food spots within a
+			half-mile walking distance from UNCG’s Petty Building.
+		</p>
+		<p>
+			These places are convenient, student-friendly, and great for a
+			quick meal between classes.
+		</p>
+		<p>
+			Some of the dishes listed are ones I have personally tried and
+			enjoyed.
+		</p>
+		<p>
+			Others are highly rated and popular among students in the area.
+		</p>
+	</section>
+
+	<aside id="sidebar">
+		<h2 id="sidebar-title">Extra Info</h2>
+
+		<p>
+			If you go to Don, you might meet the Korean owner—super friendly and
+			a fun part of the experience.
+		</p>
+		<p>
+			There’s also a hidden coffee spot nearby with surprisingly good
+			drinks. Want to go find it together sometime?
+		</p>
+		<p>
+			Tip: Going a little earlier than peak lunch time can help you avoid
+			long lines and find seating faster.
+		</p>
+	</aside>
+
+	<section id="restaurants">
+		<h2>Restaurants</h2>
+
+		<article class="restaurant">
+			<header>
+				<h3 class="restaurant-title">Don</h3>
+				<img class="restaurant-main" src="images/restaurant1.jpg" alt="Don storefront" >
+
+				<p class="restaurant-info">
+					Address: 423 Tate St, Greensboro, NC 27403
+					<br>
+					Specialties: Spicy Ramen, Donburi, Spicy Tuna Don
+				</p>
+
+				<p class="restaurant-desc">
+					Quick Japanese comfort food near campus. Great for a warm meal
+					between classes.
+				</p>
+			</header>
+
+			<div class="restaurant-dish">
+				<article class="dish-card">
+					<h4>Spicy Ramen</h4>
+					<img src="images/dish1a.jpg" alt="Spicy ramen bowl" >
+					<p class="caption">
+						Rich broth with a spicy kick. Perfect for colder days.
+					</p>
+				</article>
+
+				<article class="dish-card">
+					<h4>Spicy Tuna Don</h4>
+					<img src="images/dish1b.jpg" alt="Spicy tuna rice bowl" >
+					<p class="caption">
+						Fresh tuna over rice with a flavorful spicy sauce.
+					</p>
+				</article>
+
+				<article class="dish-card">
+					<h4>Donburi</h4>
+					<img src="images/dish1c.jpg" alt="Donburi rice bowl" >
+					<p class="caption">
+						A comforting Japanese rice bowl topped with savory ingredients.
+					</p>
+				</article>
+			</div>
+
+			<section class="contact">
+				<h4>Don – Contact Phone & Hours</h4>
+				<p>Phone: (336) 370-9677</p>
+				<p>
+					Hours:<br>
+					Monday–Thursday: 11:00 AM – 3:30 PM<br>
+					5:00 PM – 10:00 PM<br>
+					Friday: 11:00 AM – 3:30 PM<br>
+					5:00 PM – 10:00 PM<br>
+					Saturday: 11:30 AM – 10:00 PM<br>
+					Sunday: Closed
+				</p>
+			</section>
+
+		</article>
+
+		<article class="restaurant">
+			<header>
+				<h3 class="restaurant-title">Crazy Mexico</h3>
+				<img class="restaurant-main" src="images/restaurant2.jpg" alt="Crazy Mexico" >
+
+				<p class="restaurant-info">
+					Address: 332 Tate St, Greensboro, NC 27403
+					<br>
+					Specialties: Tacos, Seafood plates, Mexican desserts
+				</p>
+
+				<p class="restaurant-desc">
+					A colorful Mexican restaurant on Tate Street known for generous
+					portions and authentic flavors.
+				</p>
+			</header>
+
+			<div class="restaurant-dish">
+				<article class="dish-card">
+					<h4>Fried Ice Cream</h4>
+					<img src="images/dish2a.jpg" alt="Fried ice cream dessert">
+					<p class="caption">
+						Crispy outside, creamy inside. A fun and sweet treat.
+					</p>
+				</article>
+
+				<article class="dish-card">
+					<h4>Whole Fried Tilapia</h4>
+					<img src="images/dish2b.jpg" alt="Whole fried tilapia served with rice and avocado" >
+					<p class="caption">
+						Served with rice, salad, and avocado. Big portion and flavorful.
+					</p>
+				</article>
+
+				<article class="dish-card">
+					<h4>Tacos Plate</h4>
+					<img src="images/dish2c.jpg" alt="Tacos plate with rice and beans">
+					<p class="caption">
+						Classic street-style tacos with fresh toppings.
+					</p>
+				</article>
+			</div>
+
+			<section class="contact">
+				<h4>Contact Phone & Hours</h4>
+				<p> Phone: (336) 500-8890 </p>
+
+				<p>
+					Hours:
+					Monday–Thursday: 11:00 AM – 10:00 PM<br>
+					Friday: 10:30 AM – 10:00 PM<br>
+					Saturday: 12:00 PM – 10:00 PM<br>
+					Sunday: Closed
+				</p>
+			</section>
+		</article>
+
+		<article class="restaurant">
+			<header>
+				<h3 class="restaurant-title">Chipotle</h3>
+				<img class="restaurant-main" src="images/restaurant3.jpg" alt="Chipotle" >
+
+				<p class="restaurant-info">
+					Address: 435 Tate St, Greensboro, NC 27403
+					<br>
+					Specialties: Burritos, Bowls, Tacos
+				</p>
+
+				<p class="restaurant-desc">
+					Popular fast-casual Mexican grill where you can customize your
+					burritos and bowls.
+				</p>
+			</header>
+
+			<div class="restaurant-dish">
+				<article class="dish-card">
+					<h4>Burrito Bowl</h4>
+					<img src="images/dish3a.jpg" alt="Chipotle burrito bowl" >
+					<p class="caption">
+						A customizable bowl with rice, beans, protein, and toppings.
+					</p>
+				</article>
+
+				<article class="dish-card">
+					<h4>Chicken Burrito</h4>
+					<img src="images/dish3b.jpg" alt="Chipotle chicken burrito" >
+					<p class="caption">
+						Wrapped tortilla packed with seasoned chicken and fresh salsa.
+					</p>
+				</article>
+
+				<article class="dish-card">
+					<h4>Chips & Guacamole</h4>
+					<img src="images/dish3c.jpg" alt="Chips and guacamole" >
+					<p class="caption">
+						Freshly made guacamole served with crispy tortilla chips.
+					</p>
+				</article>
+			</div>
+
+			<section class="contact">
+				<h4>Chipotle – Contact Phone & Hours</h4>
+
+				<p>Phone: (336) 419-0949</p>
+
+				<p>
+					Hours:<br>
+					Monday–Thursday: 10:45 AM – 11:00 PM<br>
+					Friday: 10:45 AM – 11:00 PM<br>
+					Saturday: 10:45 AM – 11:00 PM<br>
+					Sunday: 10:45 AM – 11:00 PM
+				</p>
+			</section>
+
+		</article>
+	</section>
+
+</main>
+
+<footer>
+
+	<section id="credits">
+		<h2>Image Credits</h2>
+		<ul>
+			<li>
+				restaurant1.jpg, restaurant2.jpg,
+				dish1a.jpg–dish2c.jpg —
+				Google Maps
+			</li>
+
+			<li>
+				restaurant3.jpg —
+				https://newsroom.chipotle.com/2022-11-16-CHIPOTLE-OPENS-500TH-CHIPOTLANE-R-RESTAURANT
+			</li>
+
+			<li>
+				dish3a.jpg —
+				https://people.com/chipotle-brings-back-fan-favorite-menu-item-tk-11802149
+			</li>
+
+			<li>
+				dish3b.jpg —
+				https://www.incredibleegg.org/recipe/chipotle-chicken-breakfast-burrito/
+			</li>
+
+			<li>
+				dish3c.jpg —
+				https://www.chipotle.com/chipotnation
+			</li>
+		</ul>
+	</section>
+
+	<p>Created by Kai for CSC372 Assignment 2</p>
+	<p>© 2026</p>
+
+</footer>
+
+</body>
+
+</html>
