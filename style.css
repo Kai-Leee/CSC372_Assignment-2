@@ -11,7 +11,7 @@
     border: 3px solid goldenrod;
     border-left: 6px solid goldenrod;
     border-radius: 18px;
-    padding:10px;
+    padding: 10px;
     margin-bottom: 10px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 #sidebar {
-    border: 1px solid burlywood ;
+    border: 1px solid burlywood;
     border-left: 6px solid burlywood;
     border-radius: 16px;
     padding: 10px;
@@ -52,7 +52,7 @@
 .restaurant-title {
     margin: 0 0 10px;
     font-weight: bold;
-    font-family: Georgia , serif;
+    font-family: Georgia, serif;
     font-size: 1.35rem;
 }
 
@@ -64,8 +64,9 @@
     font-size: 1.05rem;
     line-height: 1.55;
 }
+
 .restaurant-desc {
-    margin: 0 0 10px ;
+    margin: 0 0 10px;
     color: darksalmon;
     padding-left: 12px;
     font-size: 1rem;
@@ -75,22 +76,23 @@
     width: 100%;
     max-width: 300px;
     height: auto;
-    margin: 10px 0 ;
+    margin: 10px 0;
 }
 
 .restaurant-dish {
-    display:flex;
+    display: flex;
     gap: 14px;
     margin-top: 14px;
     flex-wrap: nowrap;
 }
 
- .dish-card {
-     flex: 1 1 auto;
-     border: 1px solid black;
-     border-radius: 10px;
-     padding: 12px;
- }
+.dish-card {
+    flex: 1 1 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+}
 
 .dish-card img {
     width: 100%;
@@ -101,7 +103,7 @@
     background-color: lavenderblush;
 }
 
-.dish-card p{
+.dish-card p {
     margin: 1px;
     text-align: center;
     font-weight: normal;
@@ -115,7 +117,7 @@
     border-radius: 16px;
 }
 
-.contact h4{
+.contact h4 {
     font-size: 1.2rem;
 }
 
@@ -131,4 +133,46 @@
     font-size: 0.9rem;
     background-color: burlywood;
     color: #475569;
+}
+
+#favorites {
+    margin-top: 20px;
+    padding: 12px;
+    border: 2px solid darkgray;
+    border-radius: 12px;
+    background-color: darkgrey;
+}
+
+#favorites h4 {
+    font-size: 1.2rem;
+}
+
+#favorites-list {
+    margin: 0 0 10px;
+    padding-left: 18px;
+}
+
+#favorites-list li {
+    margin: 6px 0;
+    line-height: 1.4;
+}
+
+#favorites-total {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.price-tag {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.favorite-button {
+    margin-top: 6px;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+.dish-card.is-favorite {
+    background-color: yellowgreen;
 }
